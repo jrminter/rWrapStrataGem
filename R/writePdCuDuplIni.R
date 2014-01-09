@@ -18,6 +18,8 @@
 #'
 #' @keywords keywords
 #'
+#' @export
+#'
 #' @examples
 #' ## not run
 #' # library(rWrapStrataGem)

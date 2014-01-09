@@ -1,0 +1,6 @@
+export(getDupNiCuKR)
+export(getDupPdCuKR)
+export(getNiCuTestData)
+export(getPdCuTestData)
+export(writeNiCuDuplIni)
+export(writePdCuDuplIni)

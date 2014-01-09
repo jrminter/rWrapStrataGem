@@ -6,6 +6,7 @@
 #'
 #' @keywords keywords
 #'
+#' @export
 #' 
 #' @examples
 #' library(rWrapStrataGem)

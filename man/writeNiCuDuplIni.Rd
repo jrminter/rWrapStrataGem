@@ -32,7 +32,8 @@ A helper function prepare data for processing with
 StrataGemTwoLayersOnPET
 }
 \examples{
-## not runlibrary(rWrapStrataGem)
+## not run
+# library(rWrapStrataGem)
 # data <- getNiCuTestData()
 # df.1 <- getDupNiCuKR(data, 1)
 # writeNiCuDuplIni(df.1, 'qm-04029-34-10A-d1')
