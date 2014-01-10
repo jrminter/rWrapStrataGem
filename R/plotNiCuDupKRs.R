@@ -6,7 +6,9 @@
 #'
 #' @param name The name for the title or "" to supress \code{name}
 #'
-#' @return modelPath Path to the StratagGEM model csv file or "" to supress \code{modelPath}
+#' @param modelPath Path to the StratagGEM model csv file or "" to suppress \code{modelPath}
+#'
+#' @return nothing but the plot
 #'
 #' @keywords keywords
 #'
@@ -30,7 +32,6 @@ plotNiCuDupKRs <- function(df, name="", modelPath=""){
     dfc <- read.csv(modelPath, header=TRUE, as.is=TRUE)
     dfc <- dfc[dfc$kV >= min(df$e0), ]
     dfc <- dfc[dfc$kV <= max(df$e0), ]
-    print(dfc)
     lines(dfc$kV, dfc$NiKR, col='red')
     lines(dfc$kV, dfc$CuKR, col='blue')
   }
