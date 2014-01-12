@@ -1,3 +1,4 @@
+export(corProbCurKRs)
 export(getDupNiCuKR)
 export(getDupPdCuKR)
 export(getNiCuTestData)
