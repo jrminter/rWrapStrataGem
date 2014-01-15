@@ -1,8 +1,6 @@
 export(corProbCurKRs)
 export(getDupNiCuKR)
 export(getDupPdCuKR)
-export(getNiCuTestData)
-export(getPdCuTestData)
 export(plotNiCuDupKRs)
 export(plotPdCuDupKRs)
 export(runStrataGEM)
