@@ -16,8 +16,8 @@
 #' 
 #' @examples
 #' ### Not run
-#' # runStrataGEM('qm-04029-84-10A-d1.ini', wrkDir='C:\\Temp\\' )
-runStrataGEM <- function(iniName, wrkDir='C:\\Temp\\', echo=TRUE, clean=FALSE){
+#' # runStrataGEMTwoLayersOnPET('qm-04029-84-10A-d1.ini', wrkDir='C:\\Temp\\' )
+runStrataGEMTwoLayersOnPET <- function(iniName, wrkDir='C:\\Temp\\', echo=TRUE, clean=FALSE){
   setwd(wrkDir)
   sink("./runIt.cmd")
   cat("@echo off\n")
